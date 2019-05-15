@@ -1,6 +1,6 @@
 cabal-version: 2.0
 name: hsimport-config
-version: 0.1.0.0
+version: 0.2.0
 license: BSD3
 license-file: LICENSE
 maintainer: daniel.trstenjak@gmail.com
@@ -13,5 +13,5 @@ executable hsimport-config
     default-language: Haskell2010
     build-depends:
         base,
-        hsimport >=0.8.6 && <0.9,
-        haskell-src-exts >=1.20.3 && <1.21
+        hsimport >=0.10.0 && <0.11.0,
+        haskell-src-exts >=1.20.3 && <1.22
