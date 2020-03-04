@@ -3,10 +3,16 @@ name: hsimport-config
 version: 0.2.0
 license: BSD3
 license-file: LICENSE
-maintainer: daniel.trstenjak@gmail.com
+maintainer: power.walross@gmail.com
 author: Daniel Trstenjak
 synopsis: Exmaple configuration of hsimport
+tested-with: ghc ==8.2.1 ghc ==8.4.2 ghc ==8.6.3 ghc ==8.6.5
 build-type: Simple
+
+source-repository head
+    type: git
+    location: https://github.com/fendor/hsimport-config
+
 
 executable hsimport-config
     main-is: Main.hs
